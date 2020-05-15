@@ -16,15 +16,24 @@
     <Filter Include="Base">
       <UniqueIdentifier>{66f09c20-c1d4-4809-9716-112e1c1321be}</UniqueIdentifier>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Singleton.h">
-      <Filter>Base</Filter>
-    </ClInclude>
+    <Filter Include="Equalizer">
+      <UniqueIdentifier>{ed18592e-566b-4343-b525-746ca07474f4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
+    <ClCompile Include="Equalizer\Equalizer.cpp">
+      <Filter>Equalizer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Base\Singleton.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Equalizer\Equalizer.h">
+      <Filter>Equalizer</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
